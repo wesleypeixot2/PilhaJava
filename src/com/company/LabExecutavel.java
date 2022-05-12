@@ -13,7 +13,6 @@ public class LabExecutavel {
         }
         System.out.println("Labirinto Resolvido");
         labirinto.linhaColunaLabirinto(table);
-        labirinto.viewPilha();
 
     }
 }
