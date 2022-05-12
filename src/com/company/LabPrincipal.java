@@ -95,12 +95,6 @@ public class LabPrincipal {
         System.out.println();
     }
 
-    //Aqui mostra a legenda do caminho escolhido pelo computador dentro da pilha para chegar ao fim do labirinto
-    public void viewPilha(){
-        System.out.println("Caminho andado na stack: '(linha,coluna) - Option escolhida pelo computador'");
-        System.out.println(getStack().toString());
-    }
-
     //O controle utilizado pelo computador para andar dentro do labirinto, que é muito parecido com um plano cartesiano
     public String[][] MovendoPosicao(String[][] labirinto){
         for (int i = 0; i <= 3; i++) {
